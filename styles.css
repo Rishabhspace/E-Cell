@@ -1,0 +1,239 @@
+.header {
+    color:
+        #708090;
+}
+
+.gradient {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    height: 150px;
+
+}
+
+.gradient h1 {
+    text-align: center;
+    color: #FFF;
+    font-size: 36px;
+    /* font-family: Outfit; */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 50px;
+}
+
+.yellow {
+    color: #FFCC70;
+}
+
+.project {
+    height: 600px;
+}
+
+.project h2 {
+    height: 150px;
+    text-align: center;
+    padding-top: 35px;
+    color: #000;
+    font-size: 32px;
+    /* font-family: Outfit; */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 0 90px 0 20px;
+    height: 300px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.column img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    color: #000;
+    font-size: 20px;
+    /* font-family: Outfit; */
+    font-style: normal;
+    line-height: normal;
+}
+
+.text-head {
+    color: #000;
+    font-size: 24px;
+    /* font-family: Outfit; */
+    font-style: normal;
+    line-height: normal;
+}
+
+.purple {
+    color: #A62FEF;
+}
+
+.event {
+    height: 500px;
+}
+
+.event h2 {
+    height: 120px;
+    text-align: center;
+    padding-top: 35px;
+    color: #000;
+    font-size: 32px;
+    /* font-family: Outfit; */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.column-event {
+    float: left;
+    width: 50%;
+    padding: 100px;
+    padding-top: 0;
+}
+
+.row-event:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.column-event img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-h3 {
+    text-align: center;
+    margin-top: 10px;
+    color: #000;
+    font-size: 24px;
+    /* font-family: Outfit; */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.event-div {
+    margin: 20px 50px 0 50px;
+    text-align: center;
+}
+
+
+
+.column-team {
+    float: left;
+    width: 33.33%;
+}
+
+.row-team:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.team-h2 {
+    height: 80px;
+    text-align: center;
+    padding-top: 35px;
+    color: #000;
+    font-size: 32px;
+    /* font-family: Outfit; */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.teamstyle {
+    margin-left: 100px;
+}
+
+
+
+
+.column-team {
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+.column-team2 {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    margin-left: 75px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.team-spacing {
+    padding: 20px;
+}
+
+.team-img {
+    height: 50px;
+    width: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .project {
+        height: 800px;
+    }
+
+    .column-event {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .event {
+        height: 800px;
+    }
+
+    .event-div {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .column-team {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .column-team2 {
+        width: 100%;
+        padding: 20px;
+        margin-left: 0;
+    }
+
+    .team {
+        height: 800px;
+    }
+
+}
